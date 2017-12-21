@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveMQNetProcucer", "ActiveMQNetProcucer\ActiveMQNetProcucer.csproj", "{58D0A1FA-DF47-4FED-AECD-60AD54685711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveMQNetCustomer", "ActiveMQNetCustomer\ActiveMQNetCustomer.csproj", "{D7BAB2BF-4930-48E1-86E5-A3E6AA617B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signalr.ActiveMQ", "Signalr.ActiveMQ\Signalr.ActiveMQ.csproj", "{FB16D2D7-EABA-466A-B0A6-8E3C0D1155C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.ActiveMQ.WebHost", "SignalR.ActiveMQ.WebHost\SignalR.ActiveMQ.WebHost.csproj", "{4372B1C9-0AEF-41D0-BBB0-E37F3A6279E6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58D0A1FA-DF47-4FED-AECD-60AD54685711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D0A1FA-DF47-4FED-AECD-60AD54685711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D0A1FA-DF47-4FED-AECD-60AD54685711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D0A1FA-DF47-4FED-AECD-60AD54685711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7BAB2BF-4930-48E1-86E5-A3E6AA617B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7BAB2BF-4930-48E1-86E5-A3E6AA617B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7BAB2BF-4930-48E1-86E5-A3E6AA617B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7BAB2BF-4930-48E1-86E5-A3E6AA617B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB16D2D7-EABA-466A-B0A6-8E3C0D1155C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB16D2D7-EABA-466A-B0A6-8E3C0D1155C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB16D2D7-EABA-466A-B0A6-8E3C0D1155C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB16D2D7-EABA-466A-B0A6-8E3C0D1155C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4372B1C9-0AEF-41D0-BBB0-E37F3A6279E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4372B1C9-0AEF-41D0-BBB0-E37F3A6279E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4372B1C9-0AEF-41D0-BBB0-E37F3A6279E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4372B1C9-0AEF-41D0-BBB0-E37F3A6279E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
